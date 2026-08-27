@@ -14,7 +14,7 @@ SCHEMA = {
                     "type" : "number",
                     "description" : "Second number"
                 },
-                "operator" : {
+                "operator_in" : {
                     "type" : "string",
                     "description" : "The operator used to evaluate the expressions",
                     "enum" : ["+","-","/","*"]
