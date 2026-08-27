@@ -1,0 +1,8 @@
+{
+    "role" : "assistant",
+    "task" : "extract weather from city provided by the user",
+    "constraints" : {
+        "output_language" : "english",
+        "strict_json" : false
+    }
+}
