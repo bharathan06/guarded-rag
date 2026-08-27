@@ -20,7 +20,7 @@ SCHEMA = {
                     "enum" : ["+","-","/","*"]
                 }
             },
-            "required": ["number1", "number2", "operator"]
+            "required": ["number1", "number2", "operator_in"]
         }
     }
 }
