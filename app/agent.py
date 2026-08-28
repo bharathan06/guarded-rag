@@ -4,6 +4,7 @@ import json
 from tools.registry import *
 from dotenv import load_dotenv
 from llm import call_llm
+from prompts.loader import loader
 
 
 load_dotenv()
@@ -24,9 +25,7 @@ def get_tool_response(resp : any):
     }
 
 
-messages_input = [
-    {"role": "user", "content": "What is the weather like in bangalore?"}
-]
+messages_input = loader()
 
 tool_schema, tools_mapping = register()
 
